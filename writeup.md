@@ -61,6 +61,9 @@ Undistorted:
 
 ### Pipeline (single images)
 
+* For debugging purpose I extracted some images from the video (tricky areas with shadows) and added 2 of them to test set:
+<br><img src="./test_images/tricky2.jpg" width="400"/><img src="./test_images/tricky3.jpg" width="250"/><br>
+
 #### 1. Provide an example of a distortion-corrected image.
 
 The camera calibration calculation was done on the camera_calibration.ipynb notebook. The result was loaded with pickle on advanced_lane_lines.ipynb. The following image shows the result of applying the camera calibration to one of the test images:
