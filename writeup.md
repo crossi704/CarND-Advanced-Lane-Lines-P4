@@ -172,5 +172,5 @@ Here's a [link to my video result](./output_video/project_video.mp4)
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further, main topics would be:
-* Try to combine color spaces threshold: HSL S channel (good for white lanes) and LAB colorspace B channel (for yellow lines with shadows) <b> Working on branch: <i>improvement</t> </b> 
+* Try to combine color spaces threshold: HSL S channel (good for white lanes) and LAB colorspace B channel (for yellow lines with shadows) <b> Working on branch: <i>improvement</i> </b> 
 * Improve usage of sliding window polyfit combining with previous detected lines, when no lane lines were found in current image
